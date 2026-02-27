@@ -1,0 +1,10 @@
+venv/
+env/
+__pycache__/
+*.dll
+*.exe
+*.pyc
+build/
+dist/
+output/
+Rogers/venv/
