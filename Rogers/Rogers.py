@@ -594,7 +594,7 @@ def voice_loop_autostart(status_label, log_box, security_label):
         elif intent == "WHATSAPP":
             speak("Sending WhatsApp message...", emotion)
             pwk.sendwhatmsg(
-                "+918007537381",
+                "",
                 f"Hello from AI Rogers! [{datetime.datetime.now().strftime('%H:%M')}]",
                 19, 42, 30, True, 10
             )
